@@ -10,17 +10,17 @@ With these elements we can group content types, change font size and shape, and 
 
 And now we can see what the basic structure of an HTML file looks like.
 
-The first line of the document should be the <!DOCTYPE html>, although it looks like an HTML element it just tells the browser that it is dealing with an HTML5 file type. The HTML elements come right below.
+The first line of the document should be the `<!DOCTYPE html>`, although it looks like an HTML element it just tells the browser that it is dealing with an HTML5 file type. The HTML elements come right below.
 
-**<html>**
+**`<html>`**
 
 The html tag is the root of your document, all HTML elements must be inside it. And in it we tell the browser what language the document is in, through the lang attribute.
 
-**<head>**
+**`<head>`**
 
 The head tag contains elements that will be read by the browser, such as the metadata - an example is the charset, which is the character encoding and the most common is UTF-8, the JavaScript with the script tag, the CSS through the style and link tags - we will see the difference when we talk about CSS - and the title of the page with the title tag.
 
-**<body>**
+**`<body>`**
 
 And inside the body tag we put all the content visible to the user: text, images, videos.
 
@@ -33,25 +33,25 @@ But in 2014 the fifth version of HTML came out, and with it came several importa
 
 Semantics allows us to describe our content more precisely, now a block of text is not just a div, it is now an article and has more meaning that way. And we have several elements to resignify divs:
 
-**<section>**
+**`<section>`**
 
 Represents a generic content section when there is no more specific element for it.
 
-**<header>**
+**`<header>`**
 
 Is the header of the page or a section of the page and usually contains logos, menus, search fields.
 
-**<article>**
+**`<article>`**
 
 Represents an independent and more relevant content within a page, such as a blog post, a news item in a sidebar or a comment block. An article can contain other elements, such as a header, headers, paragraphs, and images.
 
-**<aside>**
+**`<aside>`**
 
 This is a section that encompasses content related to the main content, such as related articles, author bios, and advertising. They are usually represented as sidebars.
 
-**<footer>**
+**`<footer>`**
 
-This element represents the footer of the content or part of it, as it is accepted within various elements, such as article and section and even the body. Examples of content in a <footer> are author information and related *links*.
+This element represents the footer of the content or part of it, as it is accepted within various elements, such as article and section and even the body. Examples of content in a `<footer>` are author information and related *links*.
 
 ## **Text and links**
 
@@ -81,15 +81,15 @@ The alt is not required but is highly recommended for improving accessibility, i
 
 ## **Lists**
 
-The last elements we will see in this module are those related to lists: <ul>, <ol> and <li>.
+The last elements we will see in this module are those related to lists: `<ul>`, `<ol>` and `<li>`.
 
 Lists are used to group a collection of items, such as a list of ingredients or, as will be the case here, a list with contacts.
 
 The ul element creates an unordered list, where the order of elements is not important, and is represented with dots, circles or squares.
 
-The <ol> is for creating ordered lists, in these the order matters, so they are represented with numbers, Roman numerals or letters.
+The `<ol>` is for creating ordered lists, in these the order matters, so they are represented with numbers, Roman numerals or letters.
 
-And the li element is an item within one of these lists. A <li> can contain various types of content, such as paragraphs, images, and even other lists.
+And the li element is an item within one of these lists. A `<li>` can contain various types of content, such as paragraphs, images, and even other lists.
 
 
 # **CSS 3**
@@ -100,9 +100,9 @@ After the creation of HTML the need to format pages became evident, so in 1996 t
 
 The syntax is quite simple and can be explained with the phrase "you create style rules for elements or groups of elements".
 
-Let's use an HTML element we saw earlier, the anchor <a>, to exemplify.
+Let's use an HTML element we saw earlier, the anchor `<a>`, to exemplify.
 
-A CSS rule is represented by a selector or a group of selectors, in our case it's the <a>, then within a pair of braces we add declarations, in the example above we are changing the color and font size of this anchor, the declarations are made up of a property and a value.
+A CSS rule is represented by a selector or a group of selectors, in our case it's the `<a>`, then within a pair of braces we add declarations, in the example above we are changing the color and font size of this anchor, the declarations are made up of a property and a value.
 
 Notice that we can put multiple selectors in a rule separated by commas.
 
@@ -112,7 +112,7 @@ The *a:hover* in the example means that the anchor will also look like this when
 
 ## **ID x Class**
 
-In the previous example we created a rule that changes one HTML element directly, but this means that all <a> elements will look like that, and usually we have more complex sites that need several different rules for the same elements.
+In the previous example we created a rule that changes one HTML element directly, but this means that all `<a>` elements will look like that, and usually we have more complex sites that need several different rules for the same elements.
 
 To make it more tangible let's take a look back at the site we started making last module, it had several header elements, but we don't want the main header to have the same formatting as the header of a post, that's where IDs and Classes come in.
 
