@@ -25,7 +25,7 @@ Create a Github account through the Github website.
 
 - Tip: Choose a job-appropriate user name if possible
 
-<!--![git-homepage](.github/git-homepage.png)-->
+<!--![git-homepage](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-homepage.png)-->
 
 ### 2. Install Git
 
@@ -38,7 +38,7 @@ Install Git on your computer (through Terminal for Mac or Ubuntu).
 - Tip: If you are running into trouble, try [here](http://git-scm.com/book/en/Getting-Started-Installing-Git)
 - Tip: To check if git is already installed, try `$ git` in Terminal
 
-![git-cli](.github/git-cli.png)
+![git-cli](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-cli.png)
 
 ### 3. Configure Git
 
@@ -60,7 +60,7 @@ Fork the tutorial repository to your account through the Github webpage. This ma
 
 Tip: If you successfully forked the tutorial repository, you should see the name of the repository as [your user name]/github-tutorial
 
-![git-fork](.github/git-fork.png)
+![git-fork](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-fork.png)
 
 ### 5. Clone the repository to your local machine
 
@@ -78,7 +78,7 @@ Clone this repository (the remote repository) to your local machine.
 	  
 	`$ git clone [link to your forked tutorial repository]`
 
-<!--![git-clone](.github/git-clone.png)-->
+<!--![git-clone](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-clone.png)-->
 
 ### You are now ready to use version control with Git and Github!
 
@@ -94,7 +94,7 @@ You can change a file by doing one of two things:
 
 Git represents insertions or added changes with a `+` and deletions or removed changes with a `-`
 
-![git-hello-diff](.github/git-hello-diff.png)
+![git-hello-diff](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-hello-diff.png)
 
 Tip: You can use the command `git diff` to see how a file has changed since its last commit or between two branches.
 
@@ -104,7 +104,7 @@ Commits are a series of changes that records incremental updates to a series of 
 
 Each commit a global unique hash (calculated from contents of file) that serves as an identifier.
 
-![git-commit](.github/git-commit.png)
+![git-commit](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-commit.png)
 
 ### Branch
 
@@ -112,7 +112,7 @@ A branch refers to a linear series of commits.
 
 A codebase can be calculated by applying changes to files in each commit in succession.
 
-![git-commit-history](.github/git-commit-history.png)
+![git-commit-history](https://github.com/felipe-gomes-vicente/dio-desafio-github-primeiro-repositorio/blob/main/.github/git-commit-history.png)
 
 ### Repository
 
