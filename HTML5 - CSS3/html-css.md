@@ -24,7 +24,6 @@ The head tag contains elements that will be read by the browser, such as the met
 
 And inside the body tag we put all the content visible to the user: text, images, videos.
 
-Translated with www.DeepL.com/Translator (free version)
 
 ## **Semantics**
 
